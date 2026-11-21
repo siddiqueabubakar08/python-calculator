@@ -1,15 +1,33 @@
 
+# Python Calculator
+
 print("Welcome to My Python Calculator")
 
-a = 20
-b = 10
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 
-addition = a + b
-subtraction = a - b
-multiplication = a * b
-division = a / b
+print("Choose an operation:")
+print("1. Addition (+)")
+print("2. Subtraction (-)")
+print("3. Multiplication (*)")
+print("4. Division (/)")
 
-print("Addition:", addition)
-print("Subtraction:", subtraction)
-print("Multiplication:", multiplication)
-print("Division:", division)
+choice = input("Enter your choice (1-4): ")
+
+if choice == "1":
+    print("Result:", num1 + num2)
+
+elif choice == "2":
+    print("Result:", num1 - num2)
+
+elif choice == "3":
+    print("Result:", num1 * num2)
+
+elif choice == "4":
+    if num2 != 0:
+        print("Result:", num1 / num2)
+    else:
+        print("Cannot divide by zero!")
+
+else:
+    print("Invalid choice")
