@@ -1,0 +1,64 @@
+# Employee Salary Calculator 💰
+
+## 📌 Project Description
+The Employee Salary Calculator is a beginner-friendly Python project that calculates an employee's gross salary and net salary based on salary components and deductions.
+
+## 🎯 Features
+- Enter Basic Salary
+- Enter House Rent Allowance (HRA)
+- Enter Additional Allowance
+- Enter Provident Fund (PF) Deduction
+- Calculate Gross Salary
+- Calculate Net Salary
+- Display complete salary details
+
+## 🛠️ Technologies Used
+- Python 3
+- Visual Studio Code
+- Git
+- GitHub
+
+## 🧮 Salary Calculation
+
+**Gross Salary = Basic Salary + HRA + Allowance**
+
+**Net Salary = Gross Salary - PF Deduction**
+
+## 💻 Example
+
+| Salary Component | Amount |
+|---|---:|
+| Basic Salary | ₹18,000 |
+| HRA | ₹3,600 |
+| Allowance | ₹2,000 |
+| Gross Salary | ₹23,600 |
+| PF Deduction | ₹1,800 |
+| **Net Salary** | **₹21,800** |
+
+## ▶️ How to Run
+
+1. Install Python 3.
+2. Download or clone this repository.
+3. Open the project folder in VS Code.
+4. Open the terminal.
+5. Run the following command:
+
+```bash
+py salary_calculator.py
+```
+
+## 👨‍💻 Author
+**Siddique Abubakar**
+
+## 📚 Learning Purpose
+This project was created to practise Python fundamentals, including:
+- Variables
+- Data Types
+- User Input
+- Type Conversion
+- Arithmetic Operators
+- Output Statements
+
+---
+
+⭐ This is one of my beginner Python projects as part of my Python learning journey.
